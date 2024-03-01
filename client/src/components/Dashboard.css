@@ -1,0 +1,61 @@
+
+.dashboard-container {
+    display: flex;
+    border:3px solid #202020 ;
+}
+
+.column {
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px;
+}
+.backlog{
+    background-color:#9fc5f8 ;
+    margin: 0px;
+}
+
+
+.inprogress{
+    background-color:rgba(255,229,153,255) ;
+    margin: 0px;
+}
+
+.completed{
+    background-color: rgba(182,215,168,255);
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.btn1{
+    background-color:rgba(255,229,153,255) ;
+    margin: 0px;
+    width: 90%;
+}
+.btn2{
+    background-color: rgba(182,215,168,255);
+    margin: 0px;
+    width: 90%;
+}
+.btn3{
+    background-color: rgb(248, 188, 165);
+    margin: 0px;
+    width: 90%;
+}
+.btn{
+    background-color: #9fc5f8;
+    padding: 10px;
+    margin-top: 10px;
+    width: 50px;
+
+}
